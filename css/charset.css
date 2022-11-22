@@ -1,0 +1,23 @@
+p{
+border:3px;
+border-style: dashed;
+border-color:darkgoldenrod;
+border-radius: 66px;
+font-family: sans-serif;
+padding: 33px;
+}
+body{
+    background-image: url(../17209.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+form{
+    font-size: large;
+    font-weight: bold;
+    size: 200%;
+    /* padding-left:30% ; */
+    /* color: white; */
+}
+.ronge{
+    color: red;
+}
