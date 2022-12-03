@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: 'josefin sans', sans-serif;
     margin: 0px;
     color: white;
 }
@@ -11,6 +11,7 @@ body {
 .name h2{
     font-size: 40px;
     margin-left: 20px;
+    font-weight: 500;
 }
 .red{
     color: #FB2576;
@@ -39,7 +40,7 @@ input:disabled {
 p{
 border:3px;
 font-size: 25px;
-font-family: sans-serif;
+font-family: 'josefin sans', sans-serif;
 padding: 10px 33px 33px 33px;
 width: 70%;
 line-height: 35px;
