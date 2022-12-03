@@ -49,9 +49,10 @@ p{
 border:3px;
 font-size: 25px;
 font-family: 'josefin sans', sans-serif;
-padding: 10px 33px 33px 33px;
+padding: 10px 33px 15px 33px;
 width: 70%;
 line-height: 35px;
+margin-bottom: 0px;
 }
 .first-sec {
     background-image: url(../PNG.png);
@@ -83,7 +84,7 @@ form{
     font-weight: 500;
     font-size: large;
     cursor: pointer;
-    transition:.3s;
+    transition:.4s ease;
 }
 .butn:hover{
     background-color: transparent;
@@ -91,9 +92,9 @@ form{
     border-radius: 50px;
     border-color: #FB2576;
     width: 130px;
-    /* height: 55px; */
     color: white;
-
+    /* transform: scale(1.1); */
+    /* padding: 5px; */
 }
 
 .sec-sec {
@@ -165,4 +166,21 @@ width: 70%;
     align-items: center;
     position: relative;
     left: 280px;
+}
+.social-ico {
+    color: white;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 15px;
+}
+.social-ico a {
+    color: white;
+    font-size: 30px;
+    margin: 15px;
+    transition: .4s ease;
+}
+.social-ico a:hover{
+    transform: scale(1.1);
 }
