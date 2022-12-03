@@ -75,6 +75,7 @@ form{
     color: white;
 
 }
+sone bla bla
 .footer{
     background-color: #222222;
     display: flex;
@@ -83,39 +84,4 @@ form{
     height: 80px;
     color: white;
     font-size: medium;
-}
-/* navigation section bar */
-.nav-bar{
-    display: flex;
-}
-.nav-bar a{
-    text-decoration: none;
-    padding-right:30px ;
-    color: #222222;
-    font-size: 1.5em;
-    position: relative;
-
-}
-.nav-bar a:after{
-   content: "";
-   width: 0;
-   height: 3px;
-   position: absolute;
-   left: 0;
-   bottom: -10px;
-   border-radius: 100px;
-   background-color: #FB2576;
-   transition: .4s;
-
-}
-.nav-bar a:hover:after{
-width: 70%;
-
-}
-.nav-bar ul{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    position: relative;
-    left: 300px;
 }
