@@ -12,6 +12,13 @@ body {
     font-size: 40px;
     margin-left: 20px;
     font-weight: 500;
+    margin-top: 10px;
+}
+.name h4{
+    font-size: calc(1.275rem + .3vw);
+    color: #f3ab4d;
+    margin-left: 20px;
+    margin-bottom: 0;
 }
 .red{
     color: #FB2576;
@@ -23,6 +30,7 @@ body {
     border: #222222 2px solid;
     padding: 5px 10px 5px 10px;
     transition: .3s;
+    margin: 5px;
 }
 .wrapper input[type=email]:focus, input[type=password]:focus, input[type=text]:focus {
     width: 260px;
@@ -49,9 +57,10 @@ line-height: 35px;
     background-image: url(../PNG.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgb(22, 22, 22);
+    background-color: #1d1d1d;
     margin: 0px 0px;
     padding: 20px;
+    /* border-bottom: 3px solid white; */
 }
 form{
     font-size: large;
@@ -124,7 +133,7 @@ form{
 .nav-bar a{
     text-decoration: none;
     padding-right:30px ;
-    color: #bbbbbb;
+    color: #dbdbdb;
     font-size: 1.5em;
     position: relative;
 
