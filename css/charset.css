@@ -49,7 +49,7 @@ input:disabled {
 p{
 border:3px;
 font-size: 25px;
-font-family: 'josefin sans', sans-serif;
+font-family: 'poppins', sans-serif;
 padding: 10px 33px 15px 33px;
 width: 70%;
 line-height: 35px;
@@ -184,5 +184,5 @@ width: 70%;
     transition: .4s ease;
 }
 .social-ico a:hover{
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
