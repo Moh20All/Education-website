@@ -1,9 +1,15 @@
+/* Css variables */
+:root{
+    --primary:#10A19D;
+}
+/* Body defaults styling */
 body {
     font-family: 'josefin sans', sans-serif;
     margin: 0px;
     color: white;
     scroll-behavior: smooth;
 }
+/* Styling name and surname */
 .name h3{
     font-size: 30px; 
     margin-left: 50px;
@@ -21,9 +27,11 @@ body {
     margin-left: 20px;
     margin-bottom: 0;
 }
+/* Span for word color vaariation */
 .red{
-    color: #FB2576;
+    color: var(--primary);
 }
+/* Styling inputs E-mail password */
 .wrapper input[type=email], input[type=password], input[type=text] {
     border-radius: 25px;
     background-color: #d3d3d3;
@@ -37,7 +45,7 @@ body {
 .wrapper textarea{
     background-color: #d3d3d3;
     border-radius: 30px;
-    width: 250px;
+    width: 220px;
     height: 150px;
     border: #222222 2px solid;
     padding: 5px 10px 5px 10px;
@@ -55,14 +63,10 @@ body {
     justify-items: center;
     padding-left:120px ;
 }
-input:disabled {
-    cursor: default;
-    background-color: rgba(59, 59, 59, 0.712);
-    color: rgba(180, 180, 180, 0.616);
-}
 .wrapper label{
     font-size: 25px;
 }
+/* First section (simple paragraphe and background and social media) */
 .first-sec p{
 border:3px;
 font-size: 25px;
@@ -75,13 +79,15 @@ margin-bottom: 0px;
 .first-sec {
     transition:.4s ease;
     background-image: url(../PNG.png);
-    background-size: cover;
+    background-size: 90%;
     background-repeat: no-repeat;
+    background-position: right;
     background-color: #1d1d1d;
     margin: 0px 0px;
-    padding: 20px;
-    /* border-bottom: 3px solid white; */
+    padding: 30px;
+    border-bottom: 1px solid #ffffff2e; 
 }
+/* Contact Me area */
 .second-sec{
         
         transition:.4s ease;
@@ -89,7 +95,6 @@ margin-bottom: 0px;
         background-color: #1d1d1d;
         margin: 0px 0px;
         padding: 50px;
-        /* border-bottom: 3px solid white; */
     
 }
 .second-sec h2{
@@ -101,16 +106,14 @@ form{
     font-size: large;
     font-weight: 500;
     size: 200%;
-    /* padding-left:30% ; */
-    /* color: white; */
+
 }
-.ronge{
-    color: red;
-}
+/* Styling bottom buttons (submit reset save) */
 .butn {
     text-decoration: none;
-    background-color: #0E5E6F;
+    background-color: var(--primary);
     width: 100px;
+    margin-left: 5px;
     height: 45px;
     padding-right: 10px;
     border-radius: 50px;
@@ -123,14 +126,12 @@ form{
 .butn:hover{
     background-color: transparent;
     border: solid 3px;
-    border-radius: 50px;
-    border-color: #FB2576;
-    width: 130px;
+    border-color: var(--primary);
     color: white;
-    /* transform: scale(1.1); */
-    /* padding: 5px; */
+    transform: scale(1.1);
+    box-shadow: 5px 1px 16px 0 rgb(0 0 0 / 20%), 0px 1px 20px 0 rgb(255 255 255 / 16%) !important
 }
-
+/* Second section area */
 .sec-sec {
     padding: 20px;
     background-color: #222222;
@@ -186,7 +187,7 @@ form{
    left: 0;
    bottom: -10px;
    border-radius: 100px;
-   background-color: #FB2576;
+   background-color:var(--primary);
    transition: .4s;
 
 }
@@ -221,7 +222,7 @@ width: 70%;
 }
 /* The about text */
 .about{
-    background-color: #10141a;
+    background-color: #0e1114;
     padding: 100px 0px ;
 }
 .main{
@@ -262,15 +263,18 @@ transform: scale(1.05);
     padding: 15px 35px;
     cursor: pointer;
     border-radius:35px ;
-    border: 2px solid #FB2576;
+    border: 2px solid var(--primary);
     font-weight: 600;
     font-size: 20px;
-    background-color: #FB2576;
-    color: white;
+    background-color: var(--primary);
+    color: black;
     transition: .4s ease;
 }
 .about-text a button:hover{
     transform: scale(1.1);
     background-color: transparent;
-    border-color: #FB2576;
+    border-color: var(--primary);
+    color: white;
+    box-shadow: -11px -6px 16px 0 rgb(0 0 0 / 20%), -10px 6px 20px 0 rgb(255 255 255 / 16%) !important;
+
 }
