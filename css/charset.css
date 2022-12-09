@@ -82,6 +82,8 @@ margin-bottom: 0px;
     background-position: right;
     background-color: #1d1d1d;
     margin: 0px 0px;
+    display: flex;
+    flex-direction: column;
     padding: 30px;
     border-bottom: 1px solid #ffffff2e; 
 }
