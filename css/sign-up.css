@@ -12,7 +12,7 @@
 body{
     height: 100vh;
     width: 100%;
-    background-color: #344D67;
+    background-color: #474E68;
 }
 .box{
     position: absolute;
@@ -89,19 +89,27 @@ body{
     border-color: var(--primary);
     color: white;
     transform: scale(1.1);
-    box-shadow: 5px 1px 16px 0 rgb(0 0 0 / 20%), 0px 1px 20px 0 rgb(255 255 255 / 16%) !important
+    box-shadow: 5px 1px 16px 0 rgb(0 0 0 / 20%),
+     0px 1px 20px 0 rgb(255 255 255 / 16%) !important
 }
-.box .input-bx input:focus ~ .label1,.box .input-bx input:valid ~ .label1{
+.box .input-bx input:focus ~ .label1,
+.box .input-bx input:valid ~ .label1{
     font-size: 12px;
     top: 105px;
     color: var(--primary);
     
 }
-.box .input-bx input:focus ~ .label2,.box .input-bx input:valid ~ .label2{
+.box .input-bx input:focus ~ .label2,
+.box .input-bx input:valid ~ .label2{
     font-size: 12px;
     top: 190px;
+    color: var(--primary); 
+}
+.box .input-bx input:focus ~ .label1 i,
+.box .input-bx input:valid ~ .label1 i,
+.box .input-bx input:focus ~ .label2 i,
+.box .input-bx input:valid ~ .label2 i{
     color: var(--primary);
-    
 }
 .box .input-bx input:focus,
 .box .input-bx input:valid{
