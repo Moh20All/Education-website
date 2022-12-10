@@ -9,6 +9,33 @@
     box-sizing: border-box;
     font-family: 'josefin sans', sans-serif;
 }
+/* Return button */
+.return{
+    padding: 50px;
+    display: flex;
+}
+.return a{
+    font-family: 'josefin sans', sans-serif;
+    padding: 11px 25px;
+    cursor: pointer;
+    border-radius:35px ;
+    border: 2px solid var(--primary);
+    font-weight: 600;
+    font-size: 20px;
+    background-color: var(--primary);
+    color: black;
+    transition: .4s ease;
+    text-decoration: none;
+}
+.return a:hover{
+    background-color: transparent;
+    border: solid 3px;
+    border-color: var(--primary);
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 5px 1px 16px 0 rgb(0 0 0 / 20%),
+     0px 1px 20px 0 rgb(255 255 255 / 16%) !important
+}
 body{
     height: 100vh;
     width: 100%;
