@@ -6,6 +6,7 @@
 /* For all */
 *{
     outline: none;
+    scroll-behavior:smooth;
 }
 
 /* Body defaults styling */
