@@ -172,3 +172,11 @@ body{
 .box .input-bx input:valid{
     border-bottom:1px solid white;
 }
+@media (max-width:550px) {
+    body{
+        height: 100vh;
+        width: 100%;
+        background-color: #222222;
+    }
+    
+}

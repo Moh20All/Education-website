@@ -16,6 +16,17 @@ body {
     color: white;
     scroll-behavior: smooth;
 }
+@media (max-width:920px) {
+    body{
+        width: 212%;
+    }
+    .nav-bar{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+}
 /* Styling name and surname */
 .name h3{
     font-size: 30px; 
@@ -175,6 +186,7 @@ form{
 }
 .nav-bar h1 a{
     color: white;
+    margin-left: 20px;
 }
 .nav-bar a{
     text-decoration: none;
