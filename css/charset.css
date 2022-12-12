@@ -18,14 +18,56 @@ body {
 }
 @media (max-width:920px) {
     body{
-        width: 212%;
+        width: 213%;
     }
+    .first-sec {
+        background-image: none !important;
+    }
+    .first-sec p{
+        padding-left: 100px !important;
+    }
+    
     .nav-bar{
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
     }
+    .about-text h3 {
+        font-size: 60px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .about-text h4 {
+        font-size: 25px;
+        letter-spacing: .5px;
+        font-weight: bold;
+    }
+    .about img{
+        box-shadow: -11px -6px 16px 0 rgb(0 0 0 / 20%), -10px 6px 20px 0 rgb(255 255 255 / 16%) !important;
+        transition: .4s ease;
+        outline: none;
+        transform: rotate(90deg);    
+    }
+    .about img:hover {
+        transform: scale(1.1) rotate(90deg) !important;
+        box-shadow: -20px 20px 16px 0 rgb(0 0 0 / 20%), 0px 20px 20px 0 rgb(255 255 255 / 29%) !important;
+    }
+    .main{
+        flex-direction: column;
+        display: flex;
+        margin: 10px 130px;
+        max-width: 95%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about-text {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
 }
 /* Styling name and surname */
 .name h3{
@@ -300,6 +342,10 @@ transform: scale(1.05);
 }
 .about-text{
     margin: 50px 35px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
 }
 .about-text p{
     font-size: 20px;
