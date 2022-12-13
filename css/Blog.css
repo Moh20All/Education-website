@@ -58,6 +58,11 @@
     }
     .nav-bar a{
         margin-right: 0;
+        font-size: 15px !important;
+    }
+    .nav-bar i{
+      font-size: 30px !important;
+      padding-left: 10px !important;
     }
   }
   .container h1{
@@ -81,13 +86,13 @@
   }
   @media (max-width:767px){
 .container h1{
-    padding: 0 !important;
+    padding: 200px 0 0 80px !important;
     font-size: 110px;
     text-shadow: 5px 4px black;
 
 }  
 .container p{
-    margin-top: -35px;
-    margin-left: 15px;
+  margin-top: -26px;
+  margin-left: 91px;
 }
 }
