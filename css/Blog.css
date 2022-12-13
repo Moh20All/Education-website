@@ -51,7 +51,7 @@
   }
   @media (max-width:767px){
     .nav-bar{
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
     body{
         max-width: 100%;
