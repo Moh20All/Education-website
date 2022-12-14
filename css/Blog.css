@@ -112,33 +112,33 @@
   margin-left: auto;
   margin-right: auto;
 }
-.cards{
+.cards,.reviews{
   padding-bottom: var(--section-padding);
 }
-.cards .cards-content{
+ .cards-content{
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
   grid-gap: 30px;
   margin-top: 80px;
 }
-.cards .cards-content .card {
+.cards-content .card {
   background-color: white;
   transition: .4s ease;
 }
-.cards .cards-content .card img {
+.cards-content .card img {
   max-width: 100%;
   min-height: 100%;
   overflow: hidden;  
   object-fit: contain;
 }
-.cards .cards-content .card .info {
+.cards-content .card .info {
   text-align: center;
   padding: 20px;
 }
-.cards .cards-content .card .info h3 {
+.cards-content .card .info h3 {
   margin: 0;
 }
-.cards .cards-content .card .info p {
+.cards-content .card .info p {
   color: #777;
   line-height: 1.6;
   margin-bottom: 10px;
@@ -148,15 +148,19 @@
   color: var(--secondary-color);
 
 }
-.cards .card:hover{
+.card:hover{
   transform: scale(1.01);
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .card .imge-card {
 max-width: 100%;
 height: 218px ;
 /* background-color: black; */
 }
-.cards>a ,.cards h1{
+.cards>a ,.cards h1,.reviews>a ,.reviews h1{
   font-family: 'josefin sans' !important;
   padding-left: 50px;
   text-decoration: none;
