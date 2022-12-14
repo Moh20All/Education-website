@@ -95,6 +95,9 @@
 
   }
   @media (max-width:767px){
+    hr{
+      width: 200px;
+    }
 .container h1{
     padding: 200px 0 0 80px !important;
     font-size: 110px;
