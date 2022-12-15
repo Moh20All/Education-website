@@ -65,3 +65,6 @@ body {
     background-color: var(--primary);
     transform: scale(1.05);
 }
+.service:hover i{
+    color: white;
+}
