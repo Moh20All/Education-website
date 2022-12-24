@@ -178,5 +178,8 @@ body{
         width: 100%;
         background-color: #222222;
     }
+    .box{
+        width: 100%;
+    }
     
 }
